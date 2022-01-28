@@ -14,7 +14,7 @@ body:
     attributes:
       label: Contact Details
       description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      placeholder: ex. email@example.com, Mrxbox98#1482
     validations:
       required: false
   - type: textarea
@@ -39,13 +39,12 @@ body:
   - type: dropdown
     id: browsers
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: What setup are you seeing the bug on?
       multiple: true
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - Standalone
+        - Pterodactyl (FyreBot Egg)
+        - Pterodactyl (Other Egg)
   - type: textarea
     id: logs
     attributes:
