@@ -1,0 +1,64 @@
+tokenCommand:
+  setUser: User API Key Set
+  setApplication: Application API Key Set!
+  setToken: Your API key has been set!
+
+backup:
+  createBackupTitle: Backup created!
+  createBackupDescription: You have created a backup with uuid {UUID}!
+
+deleteBackup:
+  deleteBackupTitle: Backup deleted!
+  deleteBackupDescription: Backup {uuid} has been deleted!
+
+help:
+  helpCommand: {
+    /deleteserver <Server UUID> <Force>: Deletes a server,
+    /settoken <API Token>: Sets the API Token,
+    /status <Server UUID>: Shows the status of the server,
+    /stop <Server UUID>: Stops the server,
+    /backup <Server UUID>: Creates a backup of the server,
+    /output <Server UUID> <Print Previous Output>: Streams the output of a server to this channel,
+    /start <Server UUID>: Starts the server,
+    /downloadbackup <Server UUID> <Backup ID>: Downloads a backup of the server,
+    /info <Server UUID>: Shows information about the server,
+    /deletebackup <Server UUID> <Backup ID>: Deletes a backup of the server,
+    /help: Shows this message,
+    /restart <Server UUID>: Restarts the server,
+    /stopoutput: Stops the output in this channel,
+    /run <Server UUID> <Command>: Runs a command on the server,
+    /restorebackup <Server UUID> <Backup ID>: Restores a backup of the server,
+    /manage: Manage all your servers,
+    /graph <Server UUID>: Shows a graph of the server's resource usage,
+    /listbackups <Server UUID>: Lists all backups of the server
+  }
+  helpTitle: Help Command
+  helpDescription: All commands for this bot.
+
+info:
+  infoTitle: Server Information
+  infoDescription:
+
+uuid: UUID
+name: Name
+egg: Egg
+ip: IP
+ram: RAM
+disk: Disk
+start: Start
+restart: Restart
+stop: Stop
+
+serverStarted: Your server has been started!
+serverRestarted: Your server has been restarted!
+serverStopped: Your server has been stopped!
+
+commandSent: Your command has been sent!
+
+backupRestored: Your backup has been restored!
+downloadBackup: Download backup at
+
+serverDeleted: Your server has been deleted!
+
+noUserKey: You have not set a user API key!
+noApplicationKey: You have not set an application API key!
