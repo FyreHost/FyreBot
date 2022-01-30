@@ -37,12 +37,13 @@ help:
 
 info:
   infoTitle: Server Information
-  infoDescription:
+  infoDescription: You server's information
 
 uuid: UUID
 name: Name
 egg: Egg
 ip: IP
+cpu: CPU
 ram: RAM
 disk: Disk
 start: Start
