@@ -1,0 +1,65 @@
+tokenCommand:
+  setUser: ユーザーのAPI Keyを入力してください。
+  setApplication: Application API Keyを入力してください。
+  setToken: API keyを設定しました！
+
+backup:
+  createBackupTitle: バックアップを作成しました！
+  createBackupDescription: 作成したバックアップのUUIDは {UUID} !
+
+deleteBackup:
+  deleteBackupTitle: バックアップを削除しました！
+  deleteBackupDescription: 削除したバックアップのUUIDは {UUID} !
+
+help:
+  helpCommand: {
+    /deleteserver <Server UUID> <Force>: サーバーの削除をします,
+    /settoken <API Token>: APIの設定をします,
+    /status <Server UUID>: サーバーのステータスを表示します,
+    /stop <Server UUID>: サーバーを停止します,
+    /backup <Server UUID>: サーバーのバックアップを作成します,
+    /output <Server UUID> <Print Previous Output>: サーバーのコンソールをこのチャンネルにストリーミングします,
+    /start <Server UUID>: サーバーを起動します,
+    /downloadbackup <Server UUID> <Backup ID>: サーバーのバックアップをダウンロードします,
+    /info <Server UUID>: サーバーに関する情報を表示します,
+    /deletebackup <Server UUID> <Backup ID>: サーバーのバックアップを削除します,
+    /help: このHELPを表示します,
+    /restart <Server UUID>: サーバーを再起動します,
+    /stopoutput: サーバーのコンソールをこのチャンネルにストリーミングするのを停止します,
+    /run <Server UUID> <Command>: サーバー上でコマンドを実行します,
+    /restorebackup <Server UUID> <Backup ID>: サーバーをバックアップから復元します,
+    /manage: すべてのサーバーの管理ができます,
+    /graph <Server UUID>: サーバーのリソース使用量をグラフで表示します,
+    /listbackups <Server UUID>: サーバーのすべてのバックアップを一覧表示します
+  }
+  helpTitle: Help Command
+  helpDescription: このBOTで使える全てのコマンド.
+
+info:
+  infoTitle: Server Information
+  infoDescription: サーバーの詳細な情報
+
+uuid: UUID
+name: Name
+egg: Egg
+ip: IP
+cpu: CPU
+ram: RAM
+disk: Disk
+start: Start
+restart: Restart
+stop: Stop
+
+serverStarted: サーバーの起動を実行しました！
+serverRestarted: サーバーの再起動を実行しました！
+serverStopped: サーバーの停止を実行しました！
+
+commandSent: コマンドを送信しました！
+
+backupRestored: バックアップから復元を実行しました！
+downloadBackup: バックアップをダウンロード
+
+serverDeleted: サーバーを削除を実行しました！
+
+noUserKey: ユーザーのAPI Keyを設定していません！
+noApplicationKey: Application API Keyを設定していません！
