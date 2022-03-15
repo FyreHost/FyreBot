@@ -39,11 +39,21 @@ info:
   infoTitle: Server Information
   infoDescription: サーバーの詳細な情報
 
+permission:
+  permissionTitle: No permission
+  permissionDescription: {COMMAND_NAME} を実行する権限を持っていません。
+  notAMemberTitle: Not a server
+  notAMemberDescription: このコマンドは、サーバーでのみ実行可能です
+
+nodes:
+  nodesTitle: Nodes
+  online: Online
+  offline: Offline
+
 uuid: UUID
 name: Name
 egg: Egg
 ip: IP
-cpu: CPU
 ram: RAM
 disk: Disk
 start: Start
